@@ -1,0 +1,375 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Users/abhis/.m2/wrapper/dists/apache-maven-3.9.11/03d7e36a140982eea48e22c1dcac01d8862b2550b2939e09a0809bbc5182a5bc/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.shop:shopnearme >-------------------------
+[INFO] Building shopnearme 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.3.5:run (default-cli) > test-compile @ shopnearme >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shopnearme ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ shopnearme ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ shopnearme ---
+[INFO] skip non existing resourceDirectory E:\New folder (2)\shopnearme\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ shopnearme ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.3.5:run (default-cli) < test-compile @ shopnearme <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.3.5:run (default-cli) @ shopnearme ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2025-12-06T17:50:43.851+05:30  INFO 6128 --- [           main] c.shop.shopnearme.ShopnearmeApplication  : Starting ShopnearmeApplication using Java 25.0.1 with PID 6128 (E:\New folder (2)\shopnearme\target\classes started by abhis in E:\New folder (2)\shopnearme)
+2025-12-06T17:50:43.852+05:30  INFO 6128 --- [           main] c.shop.shopnearme.ShopnearmeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-12-06T17:50:44.297+05:30  INFO 6128 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-06T17:50:44.349+05:30  INFO 6128 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/C:/Users/abhis/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.31/tomcat-embed-core-10.1.31.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2025-12-06T17:50:44.701+05:30  INFO 6128 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-06T17:50:44.709+05:30  INFO 6128 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-06T17:50:44.709+05:30  INFO 6128 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-12-06T17:50:44.756+05:30  INFO 6128 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-06T17:50:44.757+05:30  INFO 6128 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2025-12-06T17:50:44.840+05:30  INFO 6128 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-06T17:50:44.866+05:30  INFO 6128 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-06T17:50:44.883+05:30  INFO 6128 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-06T17:50:45.056+05:30  INFO 6128 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-06T17:50:45.075+05:30  INFO 6128 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-06T17:50:45.189+05:30  INFO 6128 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@360d41d0
+2025-12-06T17:50:45.191+05:30  INFO 6128 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-06T17:50:45.222+05:30  WARN 6128 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-06T17:50:45.776+05:30  INFO 6128 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: alter table shops drop foreign key FKfl1w94m56gn5kaup1t0eiup41
+Hibernate: alter table shops drop foreign key FKrduswa89ayj0poad3l70nag19
+Hibernate: drop table if exists categories
+Hibernate: drop table if exists shops
+Hibernate: drop table if exists users
+Hibernate: create table categories (id bigint not null auto_increment, description varchar(255), name varchar(255) not null, primary key (id)) engine=InnoDB
+Hibernate: create table shops (is_closed_on_sunday bit not null, is_open bit not null, is_visible bit not null, latitude float(53) not null, longitude float(53) not null, views integer not null, category_id bigint not null, created_at datetime(6), id bigint not null auto_increment, owner_id bigint, updated_at datetime(6), description varchar(1000), address varchar(255) not null, city varchar(255) not null, closing_time varchar(255), image_url varchar(255), name varchar(255) not null, offers varchar(255), opening_time varchar(255), phone varchar(255), services varchar(255), tags varchar(255), primary key (id)) engine=InnoDB
+Hibernate: create table users (created_at datetime(6), id bigint not null auto_increment, email varchar(255) not null, name varchar(255) not null, password varchar(255) not null, role enum ('ADMIN','SHOPKEEPER','USER'), primary key (id)) engine=InnoDB
+Hibernate: alter table categories add constraint UKt8o6pivur7nn124jehx7cygw5 unique (name)
+Hibernate: alter table users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+Hibernate: alter table shops add constraint FKfl1w94m56gn5kaup1t0eiup41 foreign key (category_id) references categories (id)
+Hibernate: alter table shops add constraint FKrduswa89ayj0poad3l70nag19 foreign key (owner_id) references users (id)
+2025-12-06T17:50:46.099+05:30  INFO 6128 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-06T17:50:46.359+05:30  INFO 6128 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-06T17:50:46.724+05:30  INFO 6128 --- [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-12-06T17:50:46.725+05:30  WARN 6128 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-12-06T17:50:46.947+05:30 DEBUG 6128 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-06T17:50:47.120+05:30  INFO 6128 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-06T17:50:47.126+05:30  INFO 6128 --- [           main] c.shop.shopnearme.ShopnearmeApplication  : Started ShopnearmeApplication in 3.52 seconds (process running for 3.747)
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: insert into users (created_at,email,name,password,role) values (?,?,?,?,?)
+Seeded Admin User
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: insert into users (created_at,email,name,password,role) values (?,?,?,?,?)
+Seeded Shopkeeper User
+Hibernate: select count(*) from categories c1_0
+Hibernate: insert into categories (description,name) values (?,?)
+Hibernate: select count(*) from users u1_0
+Hibernate: select count(*) from categories c1_0
+2025-12-06T17:51:30.067+05:30  INFO 6128 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06T17:51:30.068+05:30  INFO 6128 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-06T17:51:30.068+05:30  INFO 6128 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-12-06T17:51:30.078+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-12-06T17:51:30.082+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:51:30.083+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+Login request received: {email=admin@example.com, password=password}
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:51:30.285+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:51:40.848+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-12-06T17:51:40.848+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:51:40.849+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+Login request received: {email=shopkeeper@example.com, password=password}
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:51:40.940+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:53:16.156+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+2025-12-06T17:53:16.156+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+2025-12-06T17:53:16.172+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:53:16.172+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:53:16.173+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+2025-12-06T17:53:16.173+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:53:16.206+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+2025-12-06T17:53:16.209+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:53:16.211+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:53:16.230+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+2025-12-06T17:53:16.231+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:53:16.232+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+2025-12-06T17:53:16.234+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:53:16.238+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:53:16.239+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:53:16.256+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+2025-12-06T17:53:16.258+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:53:16.258+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:53:38.822+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/auth/login
+2025-12-06T17:53:38.841+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:53:39.053+05:30 ERROR 6128 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with email: xyz@gmail.com
+	at com.shop.shopnearme.security.CustomUserDetailsService.lambda$0(CustomUserDetailsService.java:23) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.shop.shopnearme.security.CustomUserDetailsService.loadUserByUsername(CustomUserDetailsService.java:23) ~[classes/:na]
+	at com.shop.shopnearme.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[na:na]
+
+2025-12-06T17:53:39.126+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /error
+2025-12-06T17:53:39.129+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:53:39.132+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-12-06T17:54:36.277+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+2025-12-06T17:54:36.281+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+2025-12-06T17:54:36.281+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:54:36.283+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+2025-12-06T17:54:36.284+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:54:36.285+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:54:36.313+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+2025-12-06T17:54:36.318+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:54:36.318+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+2025-12-06T17:54:36.327+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:54:36.329+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:54:36.330+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:54:36.357+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+2025-12-06T17:54:36.360+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:54:36.361+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:54:36.394+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+2025-12-06T17:54:36.397+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:54:36.398+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:54:37.590+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/auth/login
+2025-12-06T17:54:37.612+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-12-06T17:54:37.616+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:54:37.617+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+Login request received: {email=shopkeeper@example.com, password=password}
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:54:38.018+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:54:38.260+05:30 DEBUG 6128 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops/my-shops
+2025-12-06T17:54:38.271+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/shops/my-shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:54:38.316+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/shops/my-shops
+2025-12-06T17:54:38.326+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/categories
+2025-12-06T17:54:38.327+05:30 DEBUG 6128 --- [nio-8080-exec-2] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.shop.shopnearme.controller.ShopController.getMyShops(); target is of class [com.shop.shopnearme.controller.ShopController]
+2025-12-06T17:54:38.340+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:54:38.384+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:54:38.418+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:54:38.458+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:54:38.506+05:30 DEBUG 6128 --- [nio-8080-exec-2] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.shop.shopnearme.controller.ShopController.getMyShops(); target is of class [com.shop.shopnearme.controller.ShopController]
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0 where s1_0.owner_id=?
+2025-12-06T17:54:38.569+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/shops/my-shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:54:38.608+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/shops/my-shops
+2025-12-06T17:54:38.614+05:30 DEBUG 6128 --- [nio-8080-exec-8] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.shop.shopnearme.controller.ShopController.getMyShops(); target is of class [com.shop.shopnearme.controller.ShopController]
+2025-12-06T17:54:38.615+05:30 DEBUG 6128 --- [nio-8080-exec-8] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.shop.shopnearme.controller.ShopController.getMyShops(); target is of class [com.shop.shopnearme.controller.ShopController]
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0 where s1_0.owner_id=?
+2025-12-06T17:56:40.610+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/categories
+2025-12-06T17:56:40.613+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops
+2025-12-06T17:56:40.614+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops
+2025-12-06T17:56:40.640+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops
+2025-12-06T17:56:40.644+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+2025-12-06T17:56:40.644+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/categories
+2025-12-06T17:56:40.642+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops
+2025-12-06T17:56:40.644+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:40.700+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+2025-12-06T17:56:40.700+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:56:40.728+05:30 DEBUG 6128 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+2025-12-06T17:56:40.728+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:40.779+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+2025-12-06T17:56:40.780+05:30 DEBUG 6128 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:56:40.810+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:40.850+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:56:40.880+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:40.921+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:56:58.315+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops
+2025-12-06T17:56:58.315+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/categories
+2025-12-06T17:56:58.316+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/categories
+2025-12-06T17:56:58.315+05:30 DEBUG 6128 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops
+2025-12-06T17:56:58.323+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops
+2025-12-06T17:56:58.331+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops
+2025-12-06T17:56:58.332+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+2025-12-06T17:56:58.347+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:58.390+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:56:58.412+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+2025-12-06T17:56:58.416+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:58.439+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:58.458+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:56:58.478+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:56:58.496+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:58.528+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:56:58.549+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:56:58.574+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/shops
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0
+2025-12-06T17:57:26.592+05:30 DEBUG 6128 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/auth/login
+2025-12-06T17:57:26.604+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-12-06T17:57:26.607+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-06T17:57:26.607+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+Login request received: {email=shopkeeper@example.com, password=password}
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:57:27.102+05:30 DEBUG 6128 --- [nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:57:27.202+05:30 DEBUG 6128 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops/my-shops
+2025-12-06T17:57:27.207+05:30 DEBUG 6128 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/categories
+2025-12-06T17:57:27.209+05:30 DEBUG 6128 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/shops/my-shops
+2025-12-06T17:57:27.218+05:30 DEBUG 6128 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/categories
+2025-12-06T17:57:27.222+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/shops/my-shops
+2025-12-06T17:57:27.222+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:57:27.269+05:30 DEBUG 6128 --- [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+2025-12-06T17:57:27.271+05:30 DEBUG 6128 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/shops/my-shops
+2025-12-06T17:57:27.272+05:30 DEBUG 6128 --- [nio-8080-exec-3] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.shop.shopnearme.controller.ShopController.getMyShops(); target is of class [com.shop.shopnearme.controller.ShopController]
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:57:27.276+05:30 DEBUG 6128 --- [nio-8080-exec-3] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.shop.shopnearme.controller.ShopController.getMyShops(); target is of class [com.shop.shopnearme.controller.ShopController]
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:57:27.302+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/categories
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0 where s1_0.owner_id=?
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:57:27.332+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/shops/my-shops
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-12-06T17:57:27.371+05:30 DEBUG 6128 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/categories
+Hibernate: select c1_0.id,c1_0.description,c1_0.name from categories c1_0
+2025-12-06T17:57:27.400+05:30 DEBUG 6128 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/shops/my-shops
+2025-12-06T17:57:27.403+05:30 DEBUG 6128 --- [nio-8080-exec-6] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.shop.shopnearme.controller.ShopController.getMyShops(); target is of class [com.shop.shopnearme.controller.ShopController]
+2025-12-06T17:57:27.405+05:30 DEBUG 6128 --- [nio-8080-exec-6] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.shop.shopnearme.controller.ShopController.getMyShops(); target is of class [com.shop.shopnearme.controller.ShopController]
+Hibernate: select u1_0.id,u1_0.created_at,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select s1_0.id,s1_0.address,s1_0.category_id,s1_0.city,s1_0.closing_time,s1_0.created_at,s1_0.description,s1_0.image_url,s1_0.is_closed_on_sunday,s1_0.is_open,s1_0.is_visible,s1_0.latitude,s1_0.longitude,s1_0.name,s1_0.offers,s1_0.opening_time,s1_0.owner_id,s1_0.phone,s1_0.services,s1_0.tags,s1_0.updated_at,s1_0.views from shops s1_0 where s1_0.owner_id=?
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  07:27 min
+[INFO] Finished at: 2025-12-06T17:58:08+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.3.5:run (default-cli) on project shopnearme: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
