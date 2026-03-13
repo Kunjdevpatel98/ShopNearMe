@@ -36,6 +36,9 @@ public class OrderController {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private com.shop.shopnearme.repository.ReviewRepository reviewRepository;
+
     @GetMapping("/shop/{shopId}")
     public ResponseEntity<List<Order>> getShopOrders(@PathVariable Long shopId) {
         return ResponseEntity.ok(orderRepository.findByShopIdOrderByCreatedAtDesc(shopId));
@@ -84,7 +87,9 @@ public class OrderController {
         stats.put("totalOrders", orders.size());
         stats.put("totalSales", totalSales);
         stats.put("pendingOrders", pendingOrders);
-        stats.put("rating", 4.2); // Placeholder
+        
+        Double avgRating = reviewRepository.getAverageRatingForShop(shopId);
+        stats.put("rating", avgRating != null ? avgRating : 0.0);
 
         return ResponseEntity.ok(stats);
     }

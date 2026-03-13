@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Security and Local Config
+.env
+.env.*
+application-local.properties
+login.json
+login_shopkeeper.json
+backend.log
+*.jks
+*.keystore
